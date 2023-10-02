@@ -317,6 +317,9 @@ nav ul li a:hover::after {
     ;
     margin-top: 20px;
 }
+.social-icons,#dr{
+        text-align:center;
+}
 
 /*css for small*/
 nav .fa-solid {
