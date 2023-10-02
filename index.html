@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c526196ba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container nc">
+
+            <nav>
+                <span class="logo"><b><span id="color">C</span>hethan Phani Varma</b></span>
+                <ul id="sidemenu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi,I'm Phani Varma</h1>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/passportphoto.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="title ">About Me</h1>
+                    <p class="para">Enthusiastic and highly motivated student with strong foundation in web technologies
+                        such as HTML , CSS, Javascript, React, MySql. Skilled in technologies like C, Python, Java,
+                        Node.
+                        Done
+                        different types of projects such as weather app, portfolio website. Seeking an entry level
+                        position to prove my skills in real world.
+                    </p>
+
+                    <p class="para-1">I like to play cricket read books and code.</p>
+
+                    <div class="tabs-title">
+                        <p class="tabs active-link" onclick="opentab('skills',event)">Skills</p>
+                        <p class="tabs" onclick="opentab('internship',event)">Intership</p>
+                        <p class="tabs" onclick="opentab('education',event)">Education</p>
+                    </div>
+                    <div class="contents active-tab" id='skills'>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <div class="contents" id='internship'>
+                        <h2 class="pt">Postulate Infotech</h2>
+                        <h4>Full Stack Developer Intern</h4>
+                        <p>Worked for 3 months as intern.In these period i contributed in the frontend part of the
+                            project and learnt many new techniques</p>
+                    </div>
+                    <div class="contents" id='education'>
+                        <h2 class="pt">Bharath Institute Of Higher Education And Reasearch</h2>
+                        <h4>Bachelor Of Technology(2020-2024)</h4>
+                        <p>Secured 8.9 grade points</p>
+
+                        <h2 class="pt">Sri Chaitanya Junior College</h2>
+                        <h4>Senior Secondary(2018-2020)</h4>
+                        <p>Secured 86%</p>
+
+                        <h2 class="pt">St Gabreal high School</h2>
+                        <h4>Secondary(2016-2018)</h4>
+                        <p>Secured 8.8 grade points</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-----------projects-->
+    <div id="projects">
+        <div>
+            <h1 class="title ">Projects</h1>
+
+            <div class="p1">
+                <div class="info">
+                    <h2 class="t">Weather App</h2>
+                    <p class="p">
+                        It is a weather application built using HTML,CSS,Javascript and API.Using this application
+                        user can get the weather of the specific location at that time.When user enters the page it asks
+                        user
+                        to input the desired city name and after taking the input it gives the weather of that location.
+                    </p>
+                    <a href="https://phani2110.github.io/weather-app/">Visit Site</a>
+                </div>
+                <div class="img i">
+                    <img src="../images/weather.png">
+                </div>
+            </div>
+            <div class="p1">
+                <div class="info">
+                    <h2 class="t t2">Shopping cart</h2>
+                    <p class="p">The Online Shopping Cart page is a meticulously crafted web interface that streamlines
+                        the
+                        shopping experience with precision and efficiency. Developed using HTML, CSS, and JavaScript,
+                        this page combines functionality and aesthetics seamlessly.</p>
+                    <a href="https://phani2110.github.io/shoppingcart/">Visit Site</a>
+                </div>
+                <div class="img i">
+                    <img src="../images/cart.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="contact">
+                <h1 class="title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>kcpvarma21@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8309963606</p>
+                <div class="social-icons">
+                    <a href="https://github.com/phani2110"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/phani_2110/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/phani-varma-311b6424a/"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href=""><button>Download resume</button></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Created by Konduru Chethan Phani Varma</p>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
