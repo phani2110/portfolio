@@ -352,6 +352,9 @@ nav .fa-solid {
         display: block;
         font-size: 50px;
     }
+    nav .fa-solid:hover{
+        cursor: pointer;
+    }
 
     nav ul {
         background: #ff004f;
